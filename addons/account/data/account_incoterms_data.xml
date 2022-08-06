@@ -45,6 +45,15 @@
             <field name="code">DDP</field>
             <field name="name">DELIVERED DUTY PAID</field>
         </record>
+        
+        <record id="incoterm_PNS" model="account.incoterms">
+            <field name="code">PNS</field>
+            <field name="name">PAR NOS SOINS</field>
+        </record>
+        <record id="incoterm_PVS" model="account.incoterms">
+            <field name="code">PVS</field>
+            <field name="name">PAR VOS SOINS</field>
+        </record>
 
     </data>
 </odoo>
