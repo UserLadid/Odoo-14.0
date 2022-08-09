@@ -22,6 +22,7 @@ You could use this simplified accounting in case you work with an (external) acc
         'data/data_account_type.xml',
         'data/account_data.xml',
         'data/digest_data.xml',
+        'data/position_fiscale.xml',
         'views/account_payment_view.xml',
         'wizard/account_automatic_entry_wizard_views.xml',
         'wizard/account_unreconcile_view.xml',
