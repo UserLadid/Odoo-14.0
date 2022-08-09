@@ -13,6 +13,7 @@ You can track your vendors, customers and other contacts.
 """,
     'depends': ['base', 'mail'],
     'data': [
+        'data/etat_maroc.xml',
         'views/contact_views.xml',
     ],
     'application': True,
