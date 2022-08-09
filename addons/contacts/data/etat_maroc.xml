@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+         <record id="country_sb" model="res.country.state">
+            <field name="name">Sidi Bernoussi</field>
+            <field name="code">SB</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_sm" model="res.country.state">
+            <field name="name">Sidi Moumen</field>
+            <field name="code">SM</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_as" model="res.country.state">
+            <field name="name">Aïn Sebaa</field>
+            <field name="code">AS</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_hh" model="res.country.state">
+            <field name="name">Hay Mohammadi</field>
+            <field name="code">HM</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_ac" model="res.country.state">
+            <field name="name">Aïn Chok</field>
+            <field name="code">AC</field>
+            <field name="country_id">136</field>
+        </record>
+         <record id="country_ms" model="res.country.state">
+            <field name="name">Mers Sultan</field>
+            <field name="code">MS</field>
+            <field name="country_id">136</field>
+        </record>
+         <record id="country_rn" model="res.country.state">
+            <field name="name">Roche Noires</field>
+            <field name="code">RN</field>
+            <field name="country_id">136</field>
+        </record>
+         <record id="country_so" model="res.country.state">
+            <field name="name">Sidi Othmane</field>
+            <field name="code">SO</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_mf" model="res.country.state">
+            <field name="name">Maarif</field>
+            <field name="code">MF</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_ls" model="res.country.state">
+            <field name="name">Lissassfa</field>
+            <field name="code">LS</field>
+            <field name="country_id">136</field>
+        </record>
+        <record id="country_hh" model="res.country.state">
+            <field name="name">Hay Hassani</field>
+            <field name="code">HH</field>
+            <field name="country_id">136</field>
+        </record>
+    </data>
+</odoo>
