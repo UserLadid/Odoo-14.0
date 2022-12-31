@@ -125,6 +125,15 @@
                     <field name="note">Selon le contrat</field>
                     <field name="line_ids" eval="[(5, 0), (0, 0, {'value': 'balance', 'value_amount': 0.0, 'sequence': 500, 'option': 'day_after_invoice_date'})]"/>
          </record>
+        
+        <record id="account_payment_term_50days_after" model="account.payment.term">
+                    <field name="name">50% à la commande 50% à la livraison </field>
+                    <field name="note">50% à la commande 50% à la livraison</field>
+                    <field name="line_ids" eval="[(5, 0), (0, 0, {'value': 'percent', 'value_amount': 0.0, 'sequence': 400, 'days': 50, 'option': 'day_after_invoice_date'}),
+                    (0, 0, {'value': 'balance', 'value_amount': 0.0, 'sequence': 500, 'days': 50, 'option': 'day_after_invoice_date'})]"/>
+
+         </record>
+
          
         <!--ADDED BY L FIN!-->
 
