@@ -20,7 +20,8 @@
                     (0, 0, {'tax_src_id': 1, 'tax_dest_id': 0})]"/>
         </record>
 
-        <record id="account_exo" model="account.fiscal.position">
+<!--TODO:Fix This Later-->
+      <!--  <record id="account_exo" model="account.fiscal.position">
             <field name="name">Exonéré de la TVA</field>
             <field name="company_id">1</field>
             <field name="tax_ids" eval="[(5, 0), (0, 0, {'tax_src_id': 3, 'tax_dest_id': 1}),
@@ -30,6 +31,6 @@
                 'account_src_id': 318,
                 'account_dest_id': 630
                 })]"/>
-        </record>
+        </record>-->
     </data>
 </odoo>
